@@ -1,7 +1,9 @@
 def roll_call_dwarves(array)
   counter = 1
-  array.each {|name| puts "#{counter} #{name}"}
+  array.each do |name|
+    puts "#{counter} #{name}"
     counter += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
